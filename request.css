@@ -24,6 +24,7 @@ h1 {
     border: 1px solid black;
     padding: 10px;
     font-size: 16px;
+    border-radius: 10px;
   }
   
   form input[type="text"], form select {
@@ -32,6 +33,7 @@ h1 {
     margin-right: 10px;
     flex: 1;
     background: transparent;
+    border-radius: 10px;
   }
   
   form button[type="submit"] {
