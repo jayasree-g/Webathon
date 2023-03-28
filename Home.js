@@ -10,11 +10,12 @@ function Home() {
         <img className="log" src="https://st2.depositphotos.com/5142301/10787/v/450/depositphotos_107872392-stock-illustration-p-letter-logo-with-green.jpg" alt="Girl in a jacket"></img>
         <h1 className="header">Pitch Pro</h1>
         <div className="link">
-      <a href='http://127.0.0.1:5500/src/template/mentor.html'><button className="bt">Mentor</button> </a>
-      <a href='http://127.0.0.1:5500/src/template/event.html'><button className="bt">Event</button></a>
-      <a href='http://127.0.0.1:5500/src/template/investors.html'><button className="bt">Investor</button>  </a>
+      <a href='http://127.0.0.1:5500/src/template/mentor.html'><button className="bt">Need guidance?</button> </a>
+      <a href='http://127.0.0.1:5500/src/template/event.html'><button className="bt">Events</button></a>
+      <a href='http://127.0.0.1:5500/src/template/investors.html'><button className="bt">Find your Investor</button>  </a>
       <a href='http://127.0.0.1:5500/src/template/newsletter.html'><button className="bt">Newsletter</button></a>
-      <a href='http://127.0.0.1:5500/src/template/podcasts.html'><button className="bt">Resources</button></a>
+      <a href='http://127.0.0.1:5500/src/template/podcasts.html'><button className="bt">Podcasts</button></a>
+      <a href='http://127.0.0.1:5500/src/template/profile.html'><button className="bt">Profile</button></a>
       </div>
       </header>
       
@@ -29,9 +30,19 @@ function Home() {
              </div>
 
             <div className="dnt">
-                <h2>Example Heading</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lobortis est. Donec consectetur venenatis rutrum. Nullam faucibus nulla augue, sed sagittis turpis pharetra eget.</p>
-                <button class="btn btn-primary">Read More</button>
+                <h2>Welcome!</h2>
+                <p>Are you an aspiring entrepreneur looking to start your own business or a seasoned entrepreneur seeking to take your business to the next level? You've come to the right place!
+From developing your business idea to launching your product or service, we are here to help you succeed.
+
+Our mission is to empower entrepreneurs with the knowledge, skills, and mindset necessary to build successful businesses.
+
+Let's build something great together!
+
+
+
+
+
+</p>
             </div>
         
         </div>
