@@ -16,6 +16,7 @@ function Home() {
       <a href='http://127.0.0.1:5500/src/template/newsletter.html'><button className="bt">Newsletter</button></a>
       <a href='http://127.0.0.1:5500/src/template/podcasts.html'><button className="bt">Podcasts</button></a>
       <a href='http://127.0.0.1:5500/src/template/profile.html'><button className="bt">Profile</button></a>
+      <a href='http://127.0.0.1:5500/src/template/fund.html'><button className="bt">Companies</button></a>
       </div>
       </header>
       
