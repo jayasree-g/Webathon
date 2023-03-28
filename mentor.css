@@ -36,12 +36,12 @@ h1 {
   }
   
   .mentor-card {
-    background-color: #fff;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
     width: 300px;
+    background-color: rgb(255, 255, 255);
   }
   
   .mentor-card h2 {

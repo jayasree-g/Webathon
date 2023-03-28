@@ -4,7 +4,7 @@
     
     event.preventDefault();
     
-    const email = document.querySelector('input[name="mail"]').value;
+    const name = document.querySelector('input[name="name"]').value;
 
-    alert(`Thank you for subscribing, ${name} (${email})!`);
+    alert(`Thank you for subscribing, ${name} !`);
   });

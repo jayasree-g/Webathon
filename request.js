@@ -1,4 +1,26 @@
 const requestModal = document.createElement('div');
+const messageElement = document.getElementById("message");
+requestModal.innerHTML = `
+<div class="box">
+  <h1>REQUEST MENTORSHIP</h1>
+  <div class="FORM">
+    <form action="">
+      <label for="Startup-name" class="form-control">Startup-name:</label><br>
+      <input type="text" id="Startup-name" name="fname" value="" required><br><br>
+    
+      <label for="Startup-description">Startup-description:</label><br>
+      <textarea rows="9" cols="80" id="startup-description" required></textarea><br><br>
+    
+      <label for="mentor-questions">Questions for Mentor:</label><br>
+      <textarea rows="9" cols="60" id="mentor-questions"></textarea>
+      <br>
+      <br>
+      <button type="submit">Submit Request</button>
+      <br>
+      <br>
+    </form>
+  </div>
+</div>`;
 
 document.body.appendChild(requestModal);
 
@@ -24,3 +46,5 @@ document.querySelectorAll('.mentor-request').forEach((button) => {
     requestModal.style.display = 'block';
   });
 });
+
+messageElement.textContent = `Thanks for applying for ${mentorName}!`;
