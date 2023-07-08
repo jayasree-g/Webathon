@@ -1,0 +1,23 @@
+.user{
+    color: black;
+    line-height: 12px;
+    background-color: #c9e9e4;
+    text-align: center;
+    box-shadow: black 5px 0px 5px ;
+    font-style: italic;
+    flex:0 0 250px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin : 35px 10px 10px 35px;
+}
+
+.imgg{
+    margin: auto;
+    margin-top: 8px;
+}
+.left{
+    text-align: left;
+}
+
+
