@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+    background-color: rgb(19, 199, 212);
+    text-align: center;
+    margin-left: 225px;
+    margin-right: 300px;
+  }
+  
+  div {
+    background-color: #f1f1f1;
+    margin-left: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .box:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);          
+  }
+
+  

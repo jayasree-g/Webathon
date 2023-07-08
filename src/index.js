@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -14,4 +14,36 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(); */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.js';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+  
+);
+
+function loadHtml(id,filename){
+  console.log('div id:${id},filename:${filename}')
+  let xhttp;
+  let element = document.getElementById(id);
+  let file = filename;
+  if (file){
+    xhttp  = new XMLHttpRequest();
+    xhttp.onreadystatechange = function(){
+      if(this.readyState==4){
+        if(this.readyState==200) {element.innerHTML=this.responseText;}
+        if(this.readyState==404){element.innerHTML = "<h1>page not found</h1>";}
+      }
+      xhttp.open("GET",'template/${file}',true);
+      xhttp.send();
+      return;
+
+    }
+  }
+}
+export default loadHtml;
